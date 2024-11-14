@@ -1,0 +1,396 @@
+.component2.component2 {
+  left: 500px;
+  top: 654px;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.component7.component7 {
+  position: absolute;
+  left: 495px;
+  top: 740px;
+  width: 135px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+.component6.component6 {
+  position: relative;  /* Change from absolute to relative */
+  width: 39px;
+  height: 39px;
+  left: 0;           /* Remove absolute positioning */
+  top: 0;            /* Remove absolute positioning */
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.component10.component10 {
+  left: 50%;
+  top: 950px;
+  width: 348px;
+  height: 48px;
+  transform: translateX(-50%);
+}
+.create {
+  color: #fff;
+  font-size: 24px;
+  line-height: 22px;
+  font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.408px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.component14.component14 {
+  right: 24px;
+  bottom: 24px;
+}
+.root {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  flex-direction: column;
+  align-items: flex-start;
+  background-image: linear-gradient(180deg, #f8fcffff 0%, #e4ecedff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  overflow: hidden;
+}
+/* .unsplashQJ0zGkrE1Zg {
+  position: absolute;
+  left: -15px;
+  top: -19.928px;
+  width: 1935px;
+  height: 250px;
+  background-image:url('/assets/unsplashQJ0zGkrE1Zg.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.frame29 {
+  position: absolute;
+  left: 0;
+  top: -14px;
+  width: 1920px;
+  height: 244px;
+  flex-direction: column;
+  background-color: #ffffffbf;
+  overflow: hidden;
+  backdrop-filter: blur(3.299999952316284px);
+}
+.logo {
+  position: absolute;
+  left: calc(50% - 875px);
+  top: 24px;
+  width: 122px;
+  height: 82px;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 33px;
+  overflow: hidden;
+  transform: translateX(-50%);
+}
+.logo21 {
+  position: absolute;
+  left: calc(50% - 9.8125px);
+  top: calc(50% - 16.5033px);
+  width: 86.7466px;
+  height: 47.5324px;
+  background-image:/* webpackIgnore: true */ url('/assets/logo21.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(-50%, -50%);
+}
+.logo31 {
+  position: absolute;
+  left: calc(50% - 0px);
+  top: calc(50% - -28.3402px);
+  width: 107.6287px;
+  height: 21.8585px;
+  background-image:/* webpackIgnore: true */ url('/assets/logo31.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(-50%, -50%);
+}
+.foodAndDrink {
+  color: #1d4666;
+  font-size: 32px;
+  line-height: 22px;
+  font-weight: bold;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.408px;
+  position: absolute;
+  left: 288px;
+  top: 1333px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.seeMore {
+  color: #5f5f5f;
+  font-size: 24px;
+  line-height: 22px;
+  font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.408px;
+  position: absolute;
+  left: 1465px;
+  top: 1336px;
+  width: 135px;
+  height: 22px;
+  text-align: end;
+  align-items: end;
+  flex-direction: column;
+}
+.arrowRightDropCircle {
+  position: absolute;
+  left: 1608px;
+  top: 1335px;
+  width: 24px;
+  height: 24px;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+}
+.foodAndDrink2 {
+  color: #1d4666;
+  font-size: 32px;
+  line-height: 22px;
+  font-weight: bold;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.408px;
+  position: absolute;
+  left: 288px;
+  top: 2169px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.seeMore2 {
+  color: #5f5f5f;
+  font-size: 24px;
+  line-height: 22px;
+  font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.408px;
+  position: absolute;
+  left: 1465px;
+  top: 2172px;
+  width: 135px;
+  height: 22px;
+  text-align: end;
+  align-items: end;
+  flex-direction: column;
+}
+.arrowRightDropCircle2 {
+  position: absolute;
+  left: 1608px;
+  top: 2171px;
+  width: 24px;
+  height: 24px;
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+}
+._666156156015666 {
+  color: #5f5f5f;
+  font-size: 28px;
+  line-height: 32px;
+  font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.408px;
+  position: absolute;
+  left: 1026px;
+  top: 650.0022px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.taoHuaSTeamBuying {
+  color: #3d3d3d;
+  font-size: 30px;
+  line-height: 22px;
+  font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.408px;
+  position: absolute;
+  left: 500px;
+  top: 310px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._2024112220 {
+  color: #3d3d3d;
+  font-size: 24px;
+  line-height: 22px;
+  font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.408px;
+  position: absolute;
+  left: 1150px;
+  top: 310px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.line1 {
+  position: absolute;
+  left: 244px;
+  top: 601px;
+  width: 1432px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  border-bottom: solid 1px #5f5f5f;
+}
+.line2 {
+  position: absolute;
+  left: 500px;
+  top: 350px;
+  width: 900px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  border-bottom: solid 1px #5f5f5f;
+}
+.transferInformation {
+  color: #3d3d3d;
+  font-size: 24px;
+  line-height: 22px;
+  font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1026px;
+  top: 618.0022px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.paymentStatus {
+  color: #3d3d3d;
+  font-size: 24px;
+  line-height: 22px;
+  font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 500px;
+  top: 700px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.hosterContactInformation {
+  color: #3d3d3d;
+  font-size: 24px;
+  line-height: 22px;
+  font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 500px;
+  top: 618.0022px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.link {
+  color: #0d99ff;
+  font-size: 28px;
+  line-height: 32px;
+  font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.408px;
+  position: absolute;
+  left: 528px;
+  top: 650.0022px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.line3 {
+  width: 100%;
+  border-bottom: solid 1px #5f5f5f;
+  margin: 10px 0;
+}
+.total {
+  color: #5f5f5f;
+  font-size: 28px;
+  line-height: 22px;
+  font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.408px;
+  position: absolute;
+  left: calc(50% - 444.4701px);
+  top: calc(50% - 2.5px);
+  width: 153.0574px;
+  height: min-content;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+}
+.orderDetails {
+  position: absolute;
+  left: 500px;
+  top: 350px;
+  width: calc(100% - 488px);
+  padding: 20px;
+  /* background-color: #fff; */
+  border-radius: 8px;
+  margin-top: 10px;  /* reduced from 20px */
+}
+.header {
+  display: flex;
+  align-items: center;
+  gap: 15px;        /* Increase gap slightly */
+  margin-bottom: 10px;  /* reduced from 20px */
+}
+.name {
+  color: #5f5f5f;
+  font-size: 36px;
+  line-height: 22px;
+  font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.408px;
+  margin-bottom: 5px;  /* added to reduce space */
+}
+.itemList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  margin: 0;  /* removed auto margins */
+  padding-left: 150px;  /* added to align with name (39px component width + 15px gap) */
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 8px;  /* reduced from 10px */
+}
+.itemName, .number, .price {
+  color: #5f5f5f;
+  font-size: 28px;
+  line-height: 22px;
+  font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.408px;
+}
