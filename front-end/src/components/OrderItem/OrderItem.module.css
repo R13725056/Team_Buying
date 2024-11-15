@@ -22,6 +22,9 @@ body {
   margin: 100px auto;
   position: relative; /* Add this */
   padding-top: 200px; /* 250px * 0.8 */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  background-color: transparent; /* Change background color to transparent */
+  height: 200vh; /* Increase height */
 }
 
 .unsplashQJ0zGkrE1Zg {

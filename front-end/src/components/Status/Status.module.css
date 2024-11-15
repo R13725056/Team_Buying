@@ -1,6 +1,6 @@
 .component2.component2 {
-  left: 500px;
-  top: 654px;
+  left: 335px;         /* 500px * 0.67 */
+  top: 498.18px;       /* 654px * 0.67 */
 }
 .icon {
   width: 100%;
@@ -8,10 +8,10 @@
 }
 .component7.component7 {
   position: absolute;
-  left: 495px;
-  top: 740px;
-  width: 135px;
-  height: 32px;
+  left: 331.65px;      /* 495px * 0.67 */
+  top: 555.8px;        /* 740px * 0.67 */
+  width: 135px;      /* 135px * 0.67 */
+  height: 40px;     /* 32px * 0.67 */
   display: flex;
   align-items: center;
 }
@@ -28,14 +28,14 @@
 }
 .component10.component10 {
   left: 50%;
-  top: 950px;
-  width: 348px;
-  height: 48px;
+  top: 676.5px;        /* 950px * 0.67 */
+  width: 233.16px;     /* 348px * 0.67 */
+  height: 32.16px;     /* 48px * 0.67 */
   transform: translateX(-50%);
 }
 .create {
   color: #fff;
-  font-size: 24px;
+  font-size: 16.08px;  /* 24px * 0.67 */
   line-height: 22px;
   font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
@@ -51,8 +51,8 @@
 }
 .root {
   position: relative;
-  width: 1920px;
-  height: 1080px;
+  width: 1286.4px;  /* 1920px * 0.67 */
+  height: 900px;    /* 增加高度，原本是 723.6px */
   flex-direction: column;
   align-items: flex-start;
   background-image: linear-gradient(180deg, #f8fcffff 0%, #e4ecedff 100%);
@@ -72,36 +72,49 @@
   background-repeat: no-repeat;
   background-size: cover;
 } */
-.frame29 {
-  position: absolute;
+.unsplashQJ0zGkrE1Zg {
+  position: fixed;
   left: 0;
-  top: -14px;
-  width: 1920px;
-  height: 244px;
+  top: 0;
+  width: 100%;
+  height: 134px;  /* 200px * 0.67 */
+  background-image: url('/public/assests/unsplashQJ0zGkrE1Zg.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.frame29 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 134px;  /* 200px * 0.67 */
   flex-direction: column;
   background-color: #ffffffbf;
   overflow: hidden;
   backdrop-filter: blur(3.299999952316284px);
+  z-index: 2;
 }
 .logo {
-  position: absolute;
-  left: calc(50% - 875px);
-  top: 24px;
-  width: 122px;
-  height: 82px;
+  position: fixed;
+  left: 0;
+  top: 16.08px;     /* 24px * 0.67 */
+  width: 81.74px;   /* 122px * 0.67 */
+  height: 44.22px;  /* 66px * 0.67 */
   flex-direction: column;
   align-items: center;
-  padding: 60px 33px;
+  padding: 32.16px 17.42px;  /* 48px * 0.67, 26px * 0.67 */
   overflow: hidden;
-  transform: translateX(-50%);
+  z-index: 3;
 }
 .logo21 {
   position: absolute;
   left: calc(50% - 9.8125px);
   top: calc(50% - 16.5033px);
-  width: 86.7466px;
-  height: 47.5324px;
-  background-image:/* webpackIgnore: true */ url('/assets/logo21.png');
+  width: 58.1px;   /* 86.7466px * 0.67 */
+  height: 31.85px; /* 47.5324px * 0.67 */
+  background-image: url('/public/assests/logo21.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -111,9 +124,9 @@
   position: absolute;
   left: calc(50% - 0px);
   top: calc(50% - -28.3402px);
-  width: 107.6287px;
-  height: 21.8585px;
-  background-image:/* webpackIgnore: true */ url('/assets/logo31.png');
+  width: 72.11px;  /* 107.6287px * 0.67 */
+  height: 14.64px; /* 21.8585px * 0.67 */
+  background-image: url('/public/assests/logo31.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -207,14 +220,14 @@
 }
 ._666156156015666 {
   color: #5f5f5f;
-  font-size: 28px;
+  font-size: 18.76px;  /* 28px * 0.67 */
   line-height: 32px;
   font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   letter-spacing: -0.408px;
   position: absolute;
-  left: 1026px;
-  top: 650.0022px;
+  left: 687.42px;      /* 1026px * 0.67 */
+  top: 495.5px;        /* 650.0022px * 0.67 */
   width: min-content;
   height: min-content;
   white-space: nowrap;
@@ -222,14 +235,14 @@
 }
 .taoHuaSTeamBuying {
   color: #3d3d3d;
-  font-size: 30px;
+  font-size: 20.1px;  /* 30px * 0.67 */
   line-height: 22px;
   font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   letter-spacing: -0.408px;
   position: absolute;
-  left: 500px;
-  top: 310px;
+  left: 335px;        /* 500px * 0.67 */
+  top: 207.7px;       /* 310px * 0.67 */
   width: min-content;
   height: min-content;
   white-space: nowrap;
@@ -237,14 +250,14 @@
 }
 ._2024112220 {
   color: #3d3d3d;
-  font-size: 24px;
+  font-size: 16.08px;  /* 24px * 0.67 */
   line-height: 22px;
   font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   letter-spacing: -0.408px;
   position: absolute;
-  left: 1150px;
-  top: 310px;
+  left: 770.5px;       /* 1150px * 0.67 */
+  top: 207.7px;        /* 310px * 0.67 */
   width: min-content;
   height: min-content;
   white-space: nowrap;
@@ -252,9 +265,9 @@
 }
 .line1 {
   position: absolute;
-  left: 244px;
-  top: 601px;
-  width: 1432px;
+  left: 335px;         /* 500px * 0.67 */
+  top: 460px;       /* 601px * 0.67 */
+  width: 603px;        /* 900px * 0.67, changed to match line2 */
   max-width: 100%;
   height: 0;
   max-height: 100%;
@@ -262,9 +275,9 @@
 }
 .line2 {
   position: absolute;
-  left: 500px;
-  top: 350px;
-  width: 900px;
+  left: 335px;    /* 500px * 0.67 */
+  top: 270px;   /* 350px * 0.67 */
+  width: 603px;   /* 900px * 0.67 */
   max-width: 100%;
   height: 0;
   max-height: 100%;
@@ -272,13 +285,13 @@
 }
 .transferInformation {
   color: #3d3d3d;
-  font-size: 24px;
+  font-size: 16.08px;  /* 24px * 0.67 */
   line-height: 22px;
   font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   position: absolute;
-  left: 1026px;
-  top: 618.0022px;
+  left: 687.42px;      /* 1026px * 0.67 */
+  top: 474.07px;       /* 618.0022px * 0.67 */
   width: min-content;
   height: min-content;
   white-space: nowrap;
@@ -286,13 +299,13 @@
 }
 .paymentStatus {
   color: #3d3d3d;
-  font-size: 24px;
+  font-size: 16.08px;  /* 24px * 0.67 */
   line-height: 22px;
   font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   position: absolute;
-  left: 500px;
-  top: 700px;
+  left: 335px;         /* 500px * 0.67 */
+  top: 529px;          /* 700px * 0.67 */
   width: min-content;
   height: min-content;
   white-space: nowrap;
@@ -300,13 +313,13 @@
 }
 .hosterContactInformation {
   color: #3d3d3d;
-  font-size: 24px;
+  font-size: 16.08px;  /* 24px * 0.67 */
   line-height: 22px;
   font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   position: absolute;
-  left: 500px;
-  top: 618.0022px;
+  left: 335px;         /* 500px * 0.67 */
+  top: 474.07px;       /* 618.0022px * 0.67 */
   width: min-content;
   height: min-content;
   white-space: nowrap;
@@ -314,14 +327,14 @@
 }
 .link {
   color: #0d99ff;
-  font-size: 28px;
+  font-size: 18.76px;  /* 28px * 0.67 */
   line-height: 32px;
   font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   letter-spacing: -0.408px;
   position: absolute;
-  left: 528px;
-  top: 650.0022px;
+  left: 359.76px;      /* 528px * 0.67 */
+  top: 495.5px;        /* 650.0022px * 0.67 */
   width: min-content;
   height: min-content;
   white-space: nowrap;
@@ -349,10 +362,10 @@
 }
 .orderDetails {
   position: absolute;
-  left: 500px;
-  top: 350px;
+  left: 320px;    /* 500px * 0.67 */
+  top: 270.5px;   /* 350px * 0.67 */
   width: calc(100% - 488px);
-  padding: 20px;
+  padding: 8px;  /* 減少整體 padding，原本是 13.4px */
   /* background-color: #fff; */
   border-radius: 8px;
   margin-top: 10px;  /* reduced from 20px */
@@ -361,11 +374,11 @@
   display: flex;
   align-items: center;
   gap: 15px;        /* Increase gap slightly */
-  margin-bottom: 10px;  /* reduced from 20px */
+  margin-bottom: 5px;  /* 減少間距，原本是 10px */
 }
 .name {
   color: #5f5f5f;
-  font-size: 36px;
+  font-size: 24.12px;  /* 36px * 0.67 */
   line-height: 22px;
   font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
@@ -378,7 +391,7 @@
   width: 100%;
   max-width: 600px;
   margin: 0;  /* removed auto margins */
-  padding-left: 150px;  /* added to align with name (39px component width + 15px gap) */
+  padding-left: 54px;  /* 減少左邊距，原本是 150px */
 }
 .item {
   display: flex;
@@ -388,7 +401,7 @@
 }
 .itemName, .number, .price {
   color: #5f5f5f;
-  font-size: 28px;
+  font-size: 18.76px;  /* 28px * 0.67 */
   line-height: 22px;
   font-family: ABeeZee, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;

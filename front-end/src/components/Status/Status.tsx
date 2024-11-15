@@ -70,12 +70,12 @@ export const Unnamed: FC<Props> = memo(function Unnamed(props = {}) {
 
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
-      {/* <div className={classes.unsplashQJ0zGkrE1Zg}></div>
-      <div className={classes.frame29}></div>5
+      <div className={classes.unsplashQJ0zGkrE1Zg}></div>
+      <div className={classes.frame29}></div>
       <div className={classes.logo}>
         <div className={classes.logo21}></div>
         <div className={classes.logo31}></div>
-      </div>2 */}
+      </div>
       <div className={classes.foodAndDrink}>Food and Drink</div>
       <div className={classes.seeMore}>See More</div>
       <div className={classes.arrowRightDropCircle}>
@@ -89,7 +89,7 @@ export const Unnamed: FC<Props> = memo(function Unnamed(props = {}) {
       <div className={classes._666156156015666}>(666) 0156156-0015666</div>
       <div className={classes.taoHuaSTeamBuying}>TaoHua ‘s TeamBuying</div>
       <div className={classes._2024112220}>2024/11/2 22:00</div>
-      <div className={classes.line1}></div>
+      <div className={classes.line1}></div>/
       
       {orderDetails.map((order, index) => (
         <div key={index} className={classes.orderDetails}>

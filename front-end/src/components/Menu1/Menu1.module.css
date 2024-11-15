@@ -24,6 +24,7 @@
   overflow: hidden;
   box-shadow: 0px 4px 4px 0px #00000040;
   backdrop-filter: blur(7.5px);
+  background-color: transparent; /* Change background color to transparent */
 }
 .frame16 {
   position: absolute;

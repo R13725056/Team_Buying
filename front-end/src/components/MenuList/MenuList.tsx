@@ -1,8 +1,9 @@
 import { memo, useState } from 'react';
 import type { FC } from 'react';
+import * as ReactDOM from 'react-dom/client';  // Add this import
 import { Menu1 } from '../Menu1/Menu1';
 import { Order } from '../ParticipantForm/ParticipantForm';
-import { Unnamed as Status } from '../Status/Status';
+import { Unnamed as Status } from '../Status/Status';  // Add this import
 import HostForm from '../HostForm/HostForm';  // Add this import
 
 import resets from '../_resets.module.css';
@@ -34,6 +35,33 @@ export const MenuList: FC<Props> = memo(function MenuList(props = {}) {
 
   const handleOrderClick = () => {
     setShowOrderModal(true);
+  };
+
+  const handleOrderConfirm = () => {
+    setShowOrderModal(false);
+    // Open the Status component in a new window
+    const newWindow = window.open('', '_blank', 'width=1920,height=1080');
+    if (newWindow) {
+      newWindow.document.write(`
+        <!DOCTYPE html>
+        <html>
+          <head>
+            <title>Status</title>
+            ${document.head.innerHTML}
+          </head>
+          <body>
+            <div id="status-root"></div>
+          </body>
+        </html>
+      `);
+      
+      // Render Status component in the new window
+      const statusRoot = newWindow.document.getElementById('status-root');
+      if (statusRoot) {
+        const root = ReactDOM.createRoot(statusRoot);
+        root.render(<Status />);
+      }
+    }
   };
 
   return (
@@ -93,17 +121,7 @@ export const MenuList: FC<Props> = memo(function MenuList(props = {}) {
       {showOrderModal && (
         <div className={classes.modalOverlay} onClick={() => setShowOrderModal(false)}>
           <div className={classes.modalContent} onClick={e => e.stopPropagation()}>
-            <Order onConfirm={() => {
-              setShowOrderModal(false);
-              setShowStatusModal(true);
-            }} />
-          </div>
-        </div>
-      )}
-      {showStatusModal && (
-        <div className={classes.modalOverlay} onClick={() => setShowStatusModal(false)}>
-          <div className={classes.modalContent} onClick={e => e.stopPropagation()}>
-            <Status />
+            <Order onConfirm={handleOrderConfirm} />
           </div>
         </div>
       )}

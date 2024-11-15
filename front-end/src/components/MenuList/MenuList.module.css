@@ -99,11 +99,11 @@
 }
 
 .modalContent {
-  width: 85%;
-  height: 85%;
-  max-width: 1920px;   /* updated to fit Status component */
-  max-height: 1080px;  /* updated to fit Status component */
-  background: white;
+  width: 70%; /* Adjust width to make the background smaller */
+  height: 90%; /* Adjust height to make the background smaller */
+  max-width: 1600px; /* Adjust max-width */
+  max-height: 900px; /* Adjust max-height */
+  background: transparent; /* Change background color to transparent */
   border-radius: 25px;
   overflow: hidden;
   display: flex;
