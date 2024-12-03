@@ -3,9 +3,9 @@ import type { FC } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import resets from '../_resets.module.css';
-import { Component1_Property1Account } from './Component1_Property1Account/Component1_Property1Account.js';
+import { Component1_Property1Account } from './Component1_Property1Account/Component1_Property1Account';
 import classes from './OrderItem.module.css';
-import { VectorIcon } from './VectorIcon.js';
+import { VectorIcon } from './VectorIcon';
 import useOrderForms from '../../hooks/useOrderForms';
 import useReadMenu from '../../hooks/useReadMenu';
 import { useAuth } from '../../contexts/AuthContext';

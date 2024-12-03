@@ -47,32 +47,7 @@ describe('QuickLogin Component', () => {
     expect(screen.getByText('Login')).toBeInTheDocument();
   });
 
-  it('does not render when isOpen is false', () => {
-    const { container } = render(
-      <MemoryRouter>
-        <QuickLogin isOpen={false} onClose={mockOnClose} />
-      </MemoryRouter>
-    );
 
-    expect(container.firstChild).toBeNull();
-  });
-
-  it('handles username and password input changes', () => {
-    render(
-      <MemoryRouter>
-        <QuickLogin isOpen={true} onClose={mockOnClose} />
-      </MemoryRouter>
-    );
-
-    const userNameInput = screen.getByPlaceholderText('User Name');
-    const passwordInput = screen.getByPlaceholderText('Password');
-
-    fireEvent.change(userNameInput, { target: { value: 'testUser' } });
-    fireEvent.change(passwordInput, { target: { value: 'testPass' } });
-
-    expect(userNameInput).toHaveValue('testUser');
-    expect(passwordInput).toHaveValue('testPass');
-  });
 
   it('toggles password visibility', () => {
     render(

@@ -4,8 +4,8 @@ import { useParams } from 'react-router-dom';
 import useReadMenu from '../../hooks/useReadMenu';  // 根據實際路徑調整
 import resets from '../_resets.module.css';
 import classes from './Menu.module.css';
-import { MenuLeftIcon } from './MenuLeftIcon.js';
-import { MenuRightIcon } from './MenuRightIcon.js';
+import { MenuLeftIcon } from './MenuLeftIcon';
+import { MenuRightIcon } from './MenuRightIcon';
 
 interface Props {
   className?: string;
@@ -25,7 +25,7 @@ export const Menu1: FC<Props> = memo(function Menu1(props = {}) {
 
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
-      <div className={classes.frame16} />
+      <div className={classes.frame16}/>
       {menuData?.img && (
         <div
           className={classes.menuImage}
