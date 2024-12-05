@@ -39,7 +39,7 @@ public class UserController {
 
   @GetMapping("/historylist/{userId}")
   public ResponseEntity<?> getHistoryList(@PathVariable int userId) {
-    System.out.println("exec getHistoryList");
+    //    System.out.println("exec getHistoryList");
     List<UserHistoryDto.HostHistory> hostHistory = userService.getHostHistoryByUserId(userId);
 
     List<UserHistoryDto.ParticipantHistory> participantHistory =

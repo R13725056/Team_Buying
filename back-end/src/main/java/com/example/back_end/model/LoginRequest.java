@@ -6,4 +6,8 @@ import lombok.Data;
 public class LoginRequest {
   private String userName;
   private String password;
+
+  public static LoginResponse of(String token, String userName, int expiration) {
+    return new LoginResponse(token, userName, expiration);
+  }
 }
